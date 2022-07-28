@@ -1,0 +1,11 @@
+Asset Type,Threat,Impact,Prob
+Access Point,Mimt,5,50
+Historian,Information Leakage,5,50
+SCADA,test,9.8,50
+SCADA,"Execution of arbitrary code CVE_2020_26867",9.8,50
+SCADA,"Denial of Service CVE_2020_26868",7.5,50
+SCADA,"Information Disclosure CVE_2020_26869",7.5,50
+SCADA,"Remote code execution CVE_2019_0752",7.5,50
+PLC,"Execution of unauthorized commands CVE_2018_5459",9.8,50
+IED,"Execution of arbitrary code CVE_2019_10938",9.8,50
+IED,"Denial of Service CVE_2019_19279",7.5,50

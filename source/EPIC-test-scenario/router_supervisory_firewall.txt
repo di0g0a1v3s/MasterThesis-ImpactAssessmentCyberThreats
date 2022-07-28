@@ -1,0 +1,2 @@
+any, 172.18.5.60, any, 172.16.5.0/24, any, allow, "allow SCADA to communicate with all in subnet 172.16.5.0/24"
+any, 172.16.5.0/24, any, 172.18.5.60, any, allow, "allow SCADA to receive communications from anywhere in 172.16.5.0/24"

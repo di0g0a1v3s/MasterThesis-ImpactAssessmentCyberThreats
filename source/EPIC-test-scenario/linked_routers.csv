@@ -1,0 +1,6 @@
+ROUTER1,ROUTER2
+router_control_firewall,router_supervisory_firewall
+router_CAP1,router_SAP
+router_CAP1,router_MAP
+router_CAP1,router_GAP
+router_CAP1,router_TAP

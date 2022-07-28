@@ -1,0 +1,4 @@
+tcp, 172.16.5.31, any, 172.16.1.31, any, allow, "CAP1 communicates with GAP"
+tcp, 172.16.5.31, any, 172.16.2.31, any, allow, "CAP1 communicates with TAP"
+tcp, 172.16.5.31, any, 172.16.3.31, any, allow, "CAP1 communicates with MAP"
+tcp, 172.16.5.31, any, 172.16.4.31, any, allow, "CAP1 communicates with SAP"

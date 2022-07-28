@@ -1,0 +1,187 @@
+{
+    "compromised_assets": [
+        [
+            {
+                "id": "33549875733563035",
+                "ip": [
+                    "192.168.1.2"
+                ],
+                "isMissionAsset": false,
+                "threats": [
+                    "Masquerading"
+                ]
+            }
+        ],
+        [
+            {
+                "id": "17165662777446772",
+                "ip": [
+                    "192.168.2.2"
+                ],
+                "isMissionAsset": false,
+                "threats": [
+                    "Communication Infiltrations"
+                ]
+            }
+        ],
+        [
+            {
+                "id": "1",
+                "ip": [
+                    "192.168.3.2"
+                ],
+                "isMissionAsset": true,
+                "threats": [
+                    "Wrongful Use"
+                ]
+            }
+        ],
+        [
+            {
+                "id": "2",
+                "ip": [
+                    "192.168.4.2"
+                ],
+                "isMissionAsset": true,
+                "threats": [
+                    "Denial of Service"
+                ]
+            }
+        ]
+    ],
+    "explored_connectivity": [
+        [
+            {
+                "protocol": "_",
+                "ip_src": "192.168.1.2",
+                "port_src": "_",
+                "ip_dst": "192.168.2.2",
+                "port_dst": "_"
+            }
+        ],
+        [
+            {
+                "protocol": "_",
+                "ip_src": "192.168.2.2",
+                "port_src": "_",
+                "ip_dst": "192.168.3.2",
+                "port_dst": "_"
+            }
+        ],
+        [
+            {
+                "protocol": "_",
+                "ip_src": "192.168.3.2",
+                "port_src": "_",
+                "ip_dst": "192.168.4.2",
+                "port_dst": "_"
+            }
+        ]
+    ],
+    "processes_compromised": [
+        {
+            "name": "Baggage Screening Process"
+        }
+    ],
+    "impact_assessment": [
+        {
+            "asset": {
+                "id": "1",
+                "type": [
+                    "HOST",
+                    "Sorter"
+                ],
+                "address": "192.168.3.2",
+                "prob": 1.0
+            },
+            "service": {
+                "id": "2",
+                "serviceNetworkPort": "0",
+                "name": "Sorter",
+                "prob": 0.1225
+            },
+            "activity": {
+                "id": "2",
+                "name": "Give Sortation Order",
+                "prob": 1.0
+            },
+            "process": {
+                "id": "1",
+                "name": "Baggage Screening Process",
+                "prob": 1.0
+            }
+        },
+        {
+            "asset": {
+                "id": "2",
+                "type": [
+                    "HOST",
+                    "PLC"
+                ],
+                "address": "192.168.4.2",
+                "prob": 1.0
+            },
+            "service": {
+                "id": "3",
+                "serviceNetworkPort": "0",
+                "name": "PLC",
+                "prob": 0.042875
+            },
+            "activity": {
+                "id": "3",
+                "name": "Move Bag to screening Conveyour",
+                "prob": 1.0
+            },
+            "process": {
+                "id": "1",
+                "name": "Baggage Screening Process",
+                "prob": 1.0
+            }
+        }
+    ],
+    "threat_propagation_paths": [
+        {
+            "start_asset": [
+                "33549875733563035",
+                "1"
+            ],
+            "next_assets": [
+                [
+                    "17165662777446772",
+                    "0.35"
+                ]
+            ]
+        },
+        {
+            "start_asset": [
+                "17165662777446772",
+                "0.35"
+            ],
+            "next_assets": [
+                [
+                    "1",
+                    "0.1225"
+                ]
+            ]
+        },
+        {
+            "start_asset": [
+                "1",
+                "0.1225"
+            ],
+            "next_assets": [
+                [
+                    "2",
+                    "0.042875"
+                ]
+            ]
+        },
+        {
+            "start_asset": [
+                "2",
+                "0.042875"
+            ],
+            "next_assets": []
+        }
+    ]
+}

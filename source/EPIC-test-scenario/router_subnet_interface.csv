@@ -1,0 +1,12 @@
+ROUTERID,SUBNET,INTERFACEIP
+router_control_firewall,172.16.1.0/24,172.16.1.1
+router_control_firewall,172.16.2.0/24,172.16.2.1
+router_control_firewall,172.16.3.0/24,172.16.3.1
+router_control_firewall,172.16.4.0/24,172.16.4.1
+router_control_firewall,172.16.5.0/24,172.16.5.1
+router_supervisory_firewall,172.18.5.0/24,172.18.5.1
+router_CAP1,172.16.5.0/24,172.16.5.31
+router_MAP,172.16.3.0/24,172.16.3.31
+router_GAP,172.16.1.0/24,172.16.1.31
+router_SAP,172.16.4.0/24,172.16.4.31
+router_TAP,172.16.2.0/24,172.16.2.31

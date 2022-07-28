@@ -1,0 +1,11 @@
+{
+	"Neo4j_Database_Address" : "bolt://0.0.0.0:7687",
+	"Neo4j_Database_Username" : "neo4j",
+	"Neo4j_Database_Password" : "test",
+	"BIA_Server_Address" : "http://127.0.0.1:5000",
+	"Threat_Entrypoint" : "Developer Mistake",
+	"Asset_Entrypoint" : "192.168.19.1",
+	"PathsThroughSubnetsOnlyOnce": "True",
+	"PathsThroughRoutersOnlyOnce": "True"
+}
+

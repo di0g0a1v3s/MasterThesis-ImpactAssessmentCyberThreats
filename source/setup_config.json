@@ -1,0 +1,10 @@
+{
+  "Neo4j_Database_Address": "bolt://0.0.0.0:7687",
+  "Neo4j_Database_Username": "neo4j",
+  "Neo4j_Database_Password": "test",
+  "BIA_Server_Address": "http://0.0.0.0:5000/",
+  "Threat_Entrypoint": "Remote Exploit of Fleet Management Device",
+  "Asset_Entrypoint": "172.18.1.1",
+  "PathsThroughSubnetsOnlyOnce": "True",
+  "PathsThroughRoutersOnlyOnce": "True"
+}

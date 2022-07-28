@@ -1,0 +1,1416 @@
+{
+  "assets": [
+    {
+      "id": "4",
+      "ip": "172.18.1.1",
+      "subnets": [
+        "172.18.1.0/24"
+      ],
+      "vulnerabilities": [
+        {
+          "name": "Remote Exploit of Fleet Management Device",
+          "impact_factor": 1.0,
+          "stride_classification": "elevation of privilege"
+        }
+      ],
+      "services": [
+        "4"
+      ]
+    },
+    {
+      "id": "6",
+      "ip": "172.18.1.3",
+      "subnets": [
+        "172.18.1.0/24"
+      ],
+      "vulnerabilities": [
+        {
+          "name": "Remote Exploit of Asset Tracker",
+          "impact_factor": 0.4,
+          "stride_classification": "elevation of privilege"
+        }
+      ],
+      "services": [
+        "6"
+      ]
+    },
+    {
+      "id": "5",
+      "ip": "172.18.1.2",
+      "subnets": [
+        "172.18.1.0/24"
+      ],
+      "vulnerabilities": [
+        {
+          "name": "Remote Exploit of Driver Tag",
+          "impact_factor": 0.4,
+          "stride_classification": "elevation of privilege"
+        }
+      ],
+      "services": [
+        "5"
+      ]
+    },
+    {
+      "id": "3",
+      "ip": "172.16.2.1",
+      "subnets": [],
+      "vulnerabilities": [
+        {
+          "name": "Remote exploit of management system",
+          "impact_factor": 0.6,
+          "stride_classification": "elevation of privilege"
+        }
+      ],
+      "services": [
+        "3"
+      ]
+    },
+    {
+      "id": "2",
+      "ip": "172.16.1.1",
+      "subnets": [],
+      "vulnerabilities": [
+        {
+          "name": "Exploit payment process",
+          "impact_factor": 0.9,
+          "stride_classification": "elevation of privilege"
+        }
+      ],
+      "services": [
+        "2"
+      ]
+    },
+    {
+      "id": "1",
+      "ip": "192.168.1.1",
+      "subnets": [],
+      "vulnerabilities": [
+        {
+          "name": "Information Disclosure",
+          "impact_factor": 0.5,
+          "stride_classification": "information disclosure"
+        }
+      ],
+      "services": [
+        "1"
+      ]
+    }
+  ],
+  "services": [
+    {
+      "id": "4",
+      "name": "Deliveries Manager",
+      "network_port": 8084,
+      "activities": [
+        "20",
+        "18",
+        "19",
+        "15",
+        "10",
+        "14"
+      ],
+      "assets": [
+        "4"
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Asset Tracking Service",
+      "network_port": 8084,
+      "activities": [
+        "17",
+        "11",
+        "12"
+      ],
+      "assets": [
+        "6"
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Driver Tracking Service",
+      "network_port": 8084,
+      "activities": [
+        "16",
+        "13"
+      ],
+      "assets": [
+        "5"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Warehouse/logistics Mangement System",
+      "network_port": 8084,
+      "activities": [
+        "1",
+        "2",
+        "3",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "assets": [
+        "3"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "E-Commerce Platform",
+      "network_port": 8084,
+      "activities": [
+        "4",
+        "105",
+        "104",
+        "103",
+        "101"
+      ],
+      "assets": [
+        "2"
+      ]
+    },
+    {
+      "id": "1",
+      "name": "Web Browser",
+      "network_port": 8084,
+      "activities": [
+        "107",
+        "106",
+        "102"
+      ],
+      "assets": [
+        "1"
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "id": "20",
+      "name": "Notify package delievered to customer",
+      "process_elements": [
+        "20"
+      ],
+      "services": [
+        "4"
+      ]
+    },
+    {
+      "id": "18",
+      "name": "Notify package compromised",
+      "process_elements": [
+        "18"
+      ],
+      "services": [
+        "4"
+      ]
+    },
+    {
+      "id": "19",
+      "name": "Scan valid UID",
+      "process_elements": [
+        "19"
+      ],
+      "services": [
+        "4"
+      ]
+    },
+    {
+      "id": "17",
+      "name": "Asset tracker reports new location",
+      "process_elements": [
+        "17"
+      ],
+      "services": [
+        "6"
+      ]
+    },
+    {
+      "id": "16",
+      "name": "Driver uses panic button",
+      "process_elements": [
+        "16"
+      ],
+      "services": [
+        "5"
+      ]
+    },
+    {
+      "id": "15",
+      "name": "Notify package reached waypoint",
+      "process_elements": [
+        "15"
+      ],
+      "services": [
+        "4"
+      ]
+    },
+    {
+      "id": "1",
+      "name": "Warehouse creates package",
+      "process_elements": [
+        "1"
+      ],
+      "services": [
+        "3"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Warehouse assigns driver",
+      "process_elements": [
+        "2"
+      ],
+      "services": [
+        "3"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Generate UID",
+      "process_elements": [
+        "3"
+      ],
+      "services": [
+        "3"
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Send package UID to E-Commerce Server",
+      "process_elements": [
+        "4"
+      ],
+      "services": [
+        "2"
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Set delivery type",
+      "process_elements": [
+        "5"
+      ],
+      "services": [
+        "3"
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Set route plan destination",
+      "process_elements": [
+        "6"
+      ],
+      "services": [
+        "3"
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Set route plan waypoints",
+      "process_elements": [
+        "7"
+      ],
+      "services": [
+        "3"
+      ]
+    },
+    {
+      "id": "8",
+      "name": "Set package temperature requirement",
+      "process_elements": [
+        "8"
+      ],
+      "services": [
+        "3"
+      ]
+    },
+    {
+      "id": "9",
+      "name": "Set package humidity requirement",
+      "process_elements": [
+        "9"
+      ],
+      "services": [
+        "3"
+      ]
+    },
+    {
+      "id": "10",
+      "name": "Driver collects package",
+      "process_elements": [
+        "10"
+      ],
+      "services": [
+        "4"
+      ]
+    },
+    {
+      "id": "11",
+      "name": "Asset tracker reports new temperature measure",
+      "process_elements": [
+        "11"
+      ],
+      "services": [
+        "6"
+      ]
+    },
+    {
+      "id": "12",
+      "name": "Asset tracker reports new humidity measure",
+      "process_elements": [
+        "12"
+      ],
+      "services": [
+        "6"
+      ]
+    },
+    {
+      "id": "13",
+      "name": "Driver tag reports new location",
+      "process_elements": [
+        "13"
+      ],
+      "services": [
+        "5"
+      ]
+    },
+    {
+      "id": "14",
+      "name": "Notify package reached destination",
+      "process_elements": [
+        "14"
+      ],
+      "services": [
+        "4"
+      ]
+    },
+    {
+      "id": "107",
+      "name": "Customer checks delivery status of package",
+      "process_elements": [
+        "107"
+      ],
+      "services": [
+        "1"
+      ]
+    },
+    {
+      "id": "106",
+      "name": "Check package in-transit location",
+      "process_elements": [
+        "106"
+      ],
+      "services": [
+        "1"
+      ]
+    },
+    {
+      "id": "105",
+      "name": "Notify customer of successful delivery",
+      "process_elements": [
+        "105"
+      ],
+      "services": [
+        "2"
+      ]
+    },
+    {
+      "id": "104",
+      "name": "Notify customer of an update on the package location",
+      "process_elements": [
+        "104"
+      ],
+      "services": [
+        "2"
+      ]
+    },
+    {
+      "id": "103",
+      "name": "Notify customer of compromised delivery",
+      "process_elements": [
+        "103"
+      ],
+      "services": [
+        "2"
+      ]
+    },
+    {
+      "id": "102",
+      "name": "Customer reads package tracking UID",
+      "process_elements": [
+        "102"
+      ],
+      "services": [
+        "1"
+      ]
+    },
+    {
+      "id": "101",
+      "name": "Notify customer of package tracking UID",
+      "process_elements": [
+        "101"
+      ],
+      "services": [
+        "2"
+      ]
+    }
+  ],
+  "processes": [
+    {
+      "id": "1",
+      "name": "Last Mile Delivery",
+      "process_elements": [
+        {
+          "id": "After4",
+          "name": "Asset tracker location deviated from route plan? OR Driver tag location deviated from route plan? OR Panic button activated? OR Package humidity invalid? OR Package temperature invalid?",
+          "type": "EXCLUSIVEGATEWAY",
+          "process": "1",
+          "activity": "",
+          "next_elements": [
+            "End1"
+          ],
+          "prev_elements": [
+            "20",
+            "18"
+          ]
+        },
+        {
+          "id": "End1",
+          "name": "End",
+          "type": "End",
+          "process": "1",
+          "activity": "",
+          "next_elements": [],
+          "prev_elements": [
+            "After4"
+          ]
+        },
+        {
+          "id": "20",
+          "name": "Notify package delievered to customer",
+          "type": "ActivityType",
+          "process": "1",
+          "activity": "20",
+          "next_elements": [
+            "After4"
+          ],
+          "prev_elements": [
+            "19"
+          ]
+        },
+        {
+          "id": "18",
+          "name": "Notify package compromised",
+          "type": "ActivityType",
+          "process": "1",
+          "activity": "18",
+          "next_elements": [
+            "After4"
+          ],
+          "prev_elements": [
+            "Before4"
+          ]
+        },
+        {
+          "id": "19",
+          "name": "Scan valid UID",
+          "type": "ActivityType",
+          "process": "1",
+          "activity": "19",
+          "next_elements": [
+            "20"
+          ],
+          "prev_elements": [
+            "Before4"
+          ]
+        },
+        {
+          "id": "Before4",
+          "name": "Asset tracker location deviated from route plan? OR Driver tag location deviated from route plan? OR Panic button activated? OR Package humidity invalid? OR Package temperature invalid?",
+          "type": "EXCLUSIVEGATEWAY",
+          "process": "1",
+          "activity": "",
+          "next_elements": [
+            "19",
+            "18"
+          ],
+          "prev_elements": [
+            "After2"
+          ]
+        },
+        {
+          "id": "After2",
+          "name": "Driver reached destination? OR Driver used panic button? OR Package humidity invalid? OR Package temperature invalid? OR Asset tracker location does not match driver location? OR Asset tracker location deviated from route plan? OR Driver tag location deviated from route plan?",
+          "type": "LOOPGATEWAY",
+          "process": "1",
+          "activity": "",
+          "next_elements": [
+            "Before4",
+            "Before2"
+          ],
+          "prev_elements": [
+            "After3"
+          ]
+        },
+        {
+          "id": "Before2",
+          "name": "Driver reached destination? OR Driver used panic button? OR Package humidity invalid? OR Package temperature invalid? OR Asset tracker location does not match driver location? OR Asset tracker location deviated from route plan? OR Driver tag location deviated from route plan?",
+          "type": "LOOPGATEWAY",
+          "process": "1",
+          "activity": "",
+          "next_elements": [
+            "Before3"
+          ],
+          "prev_elements": [
+            "After2",
+            "10"
+          ]
+        },
+        {
+          "id": "After3",
+          "name": "o",
+          "type": "INCLUSIVEGATEWAY",
+          "process": "1",
+          "activity": "",
+          "next_elements": [
+            "After2"
+          ],
+          "prev_elements": [
+            "17",
+            "16",
+            "15",
+            "11",
+            "12",
+            "13",
+            "14"
+          ]
+        },
+        {
+          "id": "17",
+          "name": "Asset tracker reports new location",
+          "type": "ActivityType",
+          "process": "1",
+          "activity": "17",
+          "next_elements": [
+            "After3"
+          ],
+          "prev_elements": [
+            "Before3"
+          ]
+        },
+        {
+          "id": "16",
+          "name": "Driver uses panic button",
+          "type": "ActivityType",
+          "process": "1",
+          "activity": "16",
+          "next_elements": [
+            "After3"
+          ],
+          "prev_elements": [
+            "Before3"
+          ]
+        },
+        {
+          "id": "15",
+          "name": "Notify package reached waypoint",
+          "type": "ActivityType",
+          "process": "1",
+          "activity": "15",
+          "next_elements": [
+            "After3"
+          ],
+          "prev_elements": [
+            "Before3"
+          ]
+        },
+        {
+          "id": "Start1",
+          "name": "Start",
+          "type": "Start",
+          "process": "1",
+          "activity": "",
+          "next_elements": [
+            "1"
+          ],
+          "prev_elements": []
+        },
+        {
+          "id": "1",
+          "name": "Warehouse creates package",
+          "type": "ActivityType",
+          "process": "1",
+          "activity": "1",
+          "next_elements": [
+            "2"
+          ],
+          "prev_elements": [
+            "Start1"
+          ]
+        },
+        {
+          "id": "2",
+          "name": "Warehouse assigns driver",
+          "type": "ActivityType",
+          "process": "1",
+          "activity": "2",
+          "next_elements": [
+            "Before1"
+          ],
+          "prev_elements": [
+            "1"
+          ]
+        },
+        {
+          "id": "Before1",
+          "name": "+",
+          "type": "PARALLELGATEWAY",
+          "process": "1",
+          "activity": "",
+          "next_elements": [
+            "3",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ],
+          "prev_elements": [
+            "2"
+          ]
+        },
+        {
+          "id": "3",
+          "name": "Generate UID",
+          "type": "ActivityType",
+          "process": "1",
+          "activity": "3",
+          "next_elements": [
+            "4"
+          ],
+          "prev_elements": [
+            "Before1"
+          ]
+        },
+        {
+          "id": "4",
+          "name": "Send package UID to E-Commerce Server",
+          "type": "ActivityType",
+          "process": "1",
+          "activity": "4",
+          "next_elements": [
+            "After1"
+          ],
+          "prev_elements": [
+            "3"
+          ]
+        },
+        {
+          "id": "5",
+          "name": "Set delivery type",
+          "type": "ActivityType",
+          "process": "1",
+          "activity": "5",
+          "next_elements": [
+            "After1"
+          ],
+          "prev_elements": [
+            "Before1"
+          ]
+        },
+        {
+          "id": "6",
+          "name": "Set route plan destination",
+          "type": "ActivityType",
+          "process": "1",
+          "activity": "6",
+          "next_elements": [
+            "After1"
+          ],
+          "prev_elements": [
+            "Before1"
+          ]
+        },
+        {
+          "id": "7",
+          "name": "Set route plan waypoints",
+          "type": "ActivityType",
+          "process": "1",
+          "activity": "7",
+          "next_elements": [
+            "After1"
+          ],
+          "prev_elements": [
+            "Before1"
+          ]
+        },
+        {
+          "id": "8",
+          "name": "Set package temperature requirement",
+          "type": "ActivityType",
+          "process": "1",
+          "activity": "8",
+          "next_elements": [
+            "After1"
+          ],
+          "prev_elements": [
+            "Before1"
+          ]
+        },
+        {
+          "id": "9",
+          "name": "Set package humidity requirement",
+          "type": "ActivityType",
+          "process": "1",
+          "activity": "9",
+          "next_elements": [
+            "After1"
+          ],
+          "prev_elements": [
+            "Before1"
+          ]
+        },
+        {
+          "id": "After1",
+          "name": "+",
+          "type": "PARALLELGATEWAY",
+          "process": "1",
+          "activity": "",
+          "next_elements": [
+            "10"
+          ],
+          "prev_elements": [
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        },
+        {
+          "id": "10",
+          "name": "Driver collects package",
+          "type": "ActivityType",
+          "process": "1",
+          "activity": "10",
+          "next_elements": [
+            "Before2"
+          ],
+          "prev_elements": [
+            "After1"
+          ]
+        },
+        {
+          "id": "Before3",
+          "name": "o",
+          "type": "INCLUSIVEGATEWAY",
+          "process": "1",
+          "activity": "",
+          "next_elements": [
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16",
+            "17"
+          ],
+          "prev_elements": [
+            "Before2"
+          ]
+        },
+        {
+          "id": "11",
+          "name": "Asset tracker reports new temperature measure",
+          "type": "ActivityType",
+          "process": "1",
+          "activity": "11",
+          "next_elements": [
+            "After3"
+          ],
+          "prev_elements": [
+            "Before3"
+          ]
+        },
+        {
+          "id": "12",
+          "name": "Asset tracker reports new humidity measure",
+          "type": "ActivityType",
+          "process": "1",
+          "activity": "12",
+          "next_elements": [
+            "After3"
+          ],
+          "prev_elements": [
+            "Before3"
+          ]
+        },
+        {
+          "id": "13",
+          "name": "Driver tag reports new location",
+          "type": "ActivityType",
+          "process": "1",
+          "activity": "13",
+          "next_elements": [
+            "After3"
+          ],
+          "prev_elements": [
+            "Before3"
+          ]
+        },
+        {
+          "id": "14",
+          "name": "Notify package reached destination",
+          "type": "ActivityType",
+          "process": "1",
+          "activity": "14",
+          "next_elements": [
+            "After3"
+          ],
+          "prev_elements": [
+            "Before3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Last Mile Delivery Monitoring",
+      "process_elements": [
+        {
+          "id": "After103",
+          "name": "UID expired?",
+          "type": "LOOPGATEWAY",
+          "process": "2",
+          "activity": "",
+          "next_elements": [
+            "End2",
+            "Before103"
+          ],
+          "prev_elements": [
+            "107"
+          ]
+        },
+        {
+          "id": "End2",
+          "name": "End",
+          "type": "End",
+          "process": "2",
+          "activity": "",
+          "next_elements": [],
+          "prev_elements": [
+            "After103"
+          ]
+        },
+        {
+          "id": "Before103",
+          "name": "X",
+          "type": "LOOPGATEWAY",
+          "process": "2",
+          "activity": "",
+          "next_elements": [
+            "107"
+          ],
+          "prev_elements": [
+            "After103",
+            "After101"
+          ]
+        },
+        {
+          "id": "107",
+          "name": "Customer checks delivery status of package",
+          "type": "ActivityType",
+          "process": "2",
+          "activity": "107",
+          "next_elements": [
+            "After103"
+          ],
+          "prev_elements": [
+            "Before103"
+          ]
+        },
+        {
+          "id": "After101",
+          "name": "Package delivered? OR Package compromised? OR UID expired?",
+          "type": "LOOPGATEWAY",
+          "process": "2",
+          "activity": "",
+          "next_elements": [
+            "Before103",
+            "Before101"
+          ],
+          "prev_elements": [
+            "After102"
+          ]
+        },
+        {
+          "id": "Before101",
+          "name": "X",
+          "type": "LOOPGATEWAY",
+          "process": "2",
+          "activity": "",
+          "next_elements": [
+            "Before102"
+          ],
+          "prev_elements": [
+            "After101",
+            "102"
+          ]
+        },
+        {
+          "id": "After102",
+          "name": "o",
+          "type": "INCLUSIVEGATEWAY",
+          "process": "2",
+          "activity": "",
+          "next_elements": [
+            "After101"
+          ],
+          "prev_elements": [
+            "106",
+            "105",
+            "104",
+            "103"
+          ]
+        },
+        {
+          "id": "106",
+          "name": "Check package in-transit location",
+          "type": "ActivityType",
+          "process": "2",
+          "activity": "106",
+          "next_elements": [
+            "After102"
+          ],
+          "prev_elements": [
+            "Before102"
+          ]
+        },
+        {
+          "id": "105",
+          "name": "Notify customer of successful delivery",
+          "type": "ActivityType",
+          "process": "2",
+          "activity": "105",
+          "next_elements": [
+            "After102"
+          ],
+          "prev_elements": [
+            "Before102"
+          ]
+        },
+        {
+          "id": "104",
+          "name": "Notify customer of an update on the package location",
+          "type": "ActivityType",
+          "process": "2",
+          "activity": "104",
+          "next_elements": [
+            "After102"
+          ],
+          "prev_elements": [
+            "Before102"
+          ]
+        },
+        {
+          "id": "103",
+          "name": "Notify customer of compromised delivery",
+          "type": "ActivityType",
+          "process": "2",
+          "activity": "103",
+          "next_elements": [
+            "After102"
+          ],
+          "prev_elements": [
+            "Before102"
+          ]
+        },
+        {
+          "id": "Before102",
+          "name": "o",
+          "type": "INCLUSIVEGATEWAY",
+          "process": "2",
+          "activity": "",
+          "next_elements": [
+            "106",
+            "105",
+            "104",
+            "103"
+          ],
+          "prev_elements": [
+            "Before101"
+          ]
+        },
+        {
+          "id": "102",
+          "name": "Customer reads package tracking UID",
+          "type": "ActivityType",
+          "process": "2",
+          "activity": "102",
+          "next_elements": [
+            "Before101"
+          ],
+          "prev_elements": [
+            "101"
+          ]
+        },
+        {
+          "id": "101",
+          "name": "Notify customer of package tracking UID",
+          "type": "ActivityType",
+          "process": "2",
+          "activity": "101",
+          "next_elements": [
+            "102"
+          ],
+          "prev_elements": [
+            "Start2"
+          ]
+        },
+        {
+          "id": "Start2",
+          "name": "Start",
+          "type": "Start",
+          "process": "2",
+          "activity": "",
+          "next_elements": [
+            "101"
+          ],
+          "prev_elements": []
+        }
+      ]
+    }
+  ],
+  "asset_entrypoint": "4",
+  "vulnerability_entrypoint": {
+    "name": "Remote Exploit of Fleet Management Device",
+    "impact_factor": 1.0,
+    "stride_classification": "elevation of privilege"
+  },
+  "routers": [
+    {
+      "id": "router_IOT_gateway",
+      "subnets": [
+        "172.18.1.0/24"
+      ],
+      "routers": []
+    }
+  ],
+  "subnets": [
+    {
+      "subnet_prefix": "172.18.1.0/24",
+      "assets": [
+        "5",
+        "4",
+        "6"
+      ],
+      "routers": [
+        "router_IOT_gateway"
+      ]
+    }
+  ],
+  "propagation_paths": [
+    {
+      "entrypoint_vulnerability": "Remote Exploit of Fleet Management Device",
+      "asset_paths": [
+        {
+          "assets": [
+            {
+              "type": "Asset",
+              "id": "4",
+              "ip": "172.18.1.1"
+            },
+            {
+              "type": "Subnet",
+              "subnet_prefix": "172.18.1.0/24"
+            },
+            {
+              "type": "Asset",
+              "id": "5",
+              "ip": "172.18.1.2"
+            }
+          ]
+        }
+      ],
+      "services": [
+        "5"
+      ],
+      "activities": [
+        "16"
+      ],
+      "processes": [
+        "1"
+      ]
+    },
+    {
+      "entrypoint_vulnerability": "Remote Exploit of Fleet Management Device",
+      "asset_paths": [
+        {
+          "assets": [
+            {
+              "type": "Asset",
+              "id": "4",
+              "ip": "172.18.1.1"
+            },
+            {
+              "type": "Subnet",
+              "subnet_prefix": "172.18.1.0/24"
+            },
+            {
+              "type": "Asset",
+              "id": "5",
+              "ip": "172.18.1.2"
+            }
+          ]
+        }
+      ],
+      "services": [
+        "5"
+      ],
+      "activities": [
+        "13"
+      ],
+      "processes": [
+        "1"
+      ]
+    },
+    {
+      "entrypoint_vulnerability": "Remote Exploit of Fleet Management Device",
+      "asset_paths": [
+        {
+          "assets": [
+            {
+              "type": "Asset",
+              "id": "4",
+              "ip": "172.18.1.1"
+            },
+            {
+              "type": "Subnet",
+              "subnet_prefix": "172.18.1.0/24"
+            },
+            {
+              "type": "Asset",
+              "id": "6",
+              "ip": "172.18.1.3"
+            }
+          ]
+        }
+      ],
+      "services": [
+        "6"
+      ],
+      "activities": [
+        "17"
+      ],
+      "processes": [
+        "1"
+      ]
+    },
+    {
+      "entrypoint_vulnerability": "Remote Exploit of Fleet Management Device",
+      "asset_paths": [
+        {
+          "assets": [
+            {
+              "type": "Asset",
+              "id": "4",
+              "ip": "172.18.1.1"
+            },
+            {
+              "type": "Subnet",
+              "subnet_prefix": "172.18.1.0/24"
+            },
+            {
+              "type": "Asset",
+              "id": "6",
+              "ip": "172.18.1.3"
+            }
+          ]
+        }
+      ],
+      "services": [
+        "6"
+      ],
+      "activities": [
+        "11"
+      ],
+      "processes": [
+        "1"
+      ]
+    },
+    {
+      "entrypoint_vulnerability": "Remote Exploit of Fleet Management Device",
+      "asset_paths": [
+        {
+          "assets": [
+            {
+              "type": "Asset",
+              "id": "4",
+              "ip": "172.18.1.1"
+            },
+            {
+              "type": "Subnet",
+              "subnet_prefix": "172.18.1.0/24"
+            },
+            {
+              "type": "Asset",
+              "id": "6",
+              "ip": "172.18.1.3"
+            }
+          ]
+        }
+      ],
+      "services": [
+        "6"
+      ],
+      "activities": [
+        "12"
+      ],
+      "processes": [
+        "1"
+      ]
+    },
+    {
+      "entrypoint_vulnerability": "Remote Exploit of Fleet Management Device",
+      "asset_paths": [
+        {
+          "assets": [
+            {
+              "type": "Asset",
+              "id": "4",
+              "ip": "172.18.1.1"
+            }
+          ]
+        }
+      ],
+      "services": [
+        "4"
+      ],
+      "activities": [
+        "20"
+      ],
+      "processes": [
+        "1"
+      ]
+    },
+    {
+      "entrypoint_vulnerability": "Remote Exploit of Fleet Management Device",
+      "asset_paths": [
+        {
+          "assets": [
+            {
+              "type": "Asset",
+              "id": "4",
+              "ip": "172.18.1.1"
+            }
+          ]
+        }
+      ],
+      "services": [
+        "4"
+      ],
+      "activities": [
+        "18"
+      ],
+      "processes": [
+        "1"
+      ]
+    },
+    {
+      "entrypoint_vulnerability": "Remote Exploit of Fleet Management Device",
+      "asset_paths": [
+        {
+          "assets": [
+            {
+              "type": "Asset",
+              "id": "4",
+              "ip": "172.18.1.1"
+            }
+          ]
+        }
+      ],
+      "services": [
+        "4"
+      ],
+      "activities": [
+        "19"
+      ],
+      "processes": [
+        "1"
+      ]
+    },
+    {
+      "entrypoint_vulnerability": "Remote Exploit of Fleet Management Device",
+      "asset_paths": [
+        {
+          "assets": [
+            {
+              "type": "Asset",
+              "id": "4",
+              "ip": "172.18.1.1"
+            }
+          ]
+        }
+      ],
+      "services": [
+        "4"
+      ],
+      "activities": [
+        "15"
+      ],
+      "processes": [
+        "1"
+      ]
+    },
+    {
+      "entrypoint_vulnerability": "Remote Exploit of Fleet Management Device",
+      "asset_paths": [
+        {
+          "assets": [
+            {
+              "type": "Asset",
+              "id": "4",
+              "ip": "172.18.1.1"
+            }
+          ]
+        }
+      ],
+      "services": [
+        "4"
+      ],
+      "activities": [
+        "10"
+      ],
+      "processes": [
+        "1"
+      ]
+    },
+    {
+      "entrypoint_vulnerability": "Remote Exploit of Fleet Management Device",
+      "asset_paths": [
+        {
+          "assets": [
+            {
+              "type": "Asset",
+              "id": "4",
+              "ip": "172.18.1.1"
+            }
+          ]
+        }
+      ],
+      "services": [
+        "4"
+      ],
+      "activities": [
+        "14"
+      ],
+      "processes": [
+        "1"
+      ]
+    }
+  ]
+}

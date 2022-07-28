@@ -1,0 +1,84 @@
+~~~~~~~~~ ROUTER router_control_firewall ~~~~~~~~~~
+inside_tree
++-- tcp
+    |-- 172.16.5.31
+    |   +-- any
+    |       |-- 172.16.1.31
+    |       |   +-- any
+    |       |-- 172.16.2.31
+    |       |   +-- any
+    |       |-- 172.16.3.31
+    |       |   +-- any
+    |       +-- 172.16.4.31
+    |           +-- any
+    +-- 172.16.5.41
+        +-- any
+            |-- 172.16.1.41-172.16.1.255
+            |   +-- any
+            |-- 172.16.2.41-172.16.2.255
+            |   +-- any
+            |-- 172.16.3.41-172.16.3.255
+            |   +-- any
+            +-- 172.16.4.41-172.16.4.255
+                +-- any
+out_tree
+inter_tree
+in_tree
++-- tcp
+    +-- 172.18.5.60
+        +-- any
+            |-- 172.16.5.41
+            |   +-- 102
+            +-- 172.16.5.100
+                +-- 135
+~~~~~~~~~ ROUTER router_supervisory_firewall ~~~~~~~~~~
+inside_tree
+out_tree
++-- any
+    +-- 172.18.5.60
+        +-- any
+            +-- 172.16.5.0/24
+                +-- any
+inter_tree
+in_tree
++-- any
+    +-- 172.16.5.0/24
+        +-- any
+            +-- 172.18.5.60
+                +-- any
+~~~~~~~~~ ROUTER router_CAP1 ~~~~~~~~~~
+inside_tree
+out_tree
++-- tcp
+    +-- 172.16.5.31
+        +-- any
+            |-- 172.16.1.31
+            |   +-- any
+            |-- 172.16.2.31
+            |   +-- any
+            |-- 172.16.3.31
+            |   +-- any
+            +-- 172.16.4.31
+                +-- any
+inter_tree
+in_tree
+~~~~~~~~~ ROUTER router_MAP ~~~~~~~~~~
+inside_tree
+out_tree
+inter_tree
+in_tree
+~~~~~~~~~ ROUTER router_GAP ~~~~~~~~~~
+inside_tree
+out_tree
+inter_tree
+in_tree
+~~~~~~~~~ ROUTER router_SAP ~~~~~~~~~~
+inside_tree
+out_tree
+inter_tree
+in_tree
+~~~~~~~~~ ROUTER router_TAP ~~~~~~~~~~
+inside_tree
+out_tree
+inter_tree
+in_tree

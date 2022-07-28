@@ -1,0 +1,303 @@
+[
+    {
+        "asset": {
+            "id": "1",
+            "hostStereotype": "HOST",
+            "address": "172.18.5.60"
+        },
+        "service": {
+            "id": "11",
+            "serviceNetworkPort": 8084,
+            "name": "PCvue"
+        },
+        "activity": {
+            "id": "11",
+            "name": "Give close command of CB1 to GPLC"
+        },
+        "process": {
+            "id": "1",
+            "name": "Power supply to smarthome"
+        }
+    },
+    {
+        "asset": {
+            "id": "1",
+            "hostStereotype": "HOST",
+            "address": "172.18.5.60"
+        },
+        "service": {
+            "id": "11",
+            "serviceNetworkPort": 8084,
+            "name": "PCvue"
+        },
+        "activity": {
+            "id": "21",
+            "name": "Give close command of CB2 to TPLC"
+        },
+        "process": {
+            "id": "1",
+            "name": "Power supply to smarthome"
+        }
+    },
+    {
+        "asset": {
+            "id": "1",
+            "hostStereotype": "HOST",
+            "address": "172.18.5.60"
+        },
+        "service": {
+            "id": "11",
+            "serviceNetworkPort": 8084,
+            "name": "PCvue"
+        },
+        "activity": {
+            "id": "31",
+            "name": "Give close command of CB3 to SPLC"
+        },
+        "process": {
+            "id": "1",
+            "name": "Power supply to smarthome"
+        }
+    },
+    {
+        "asset": {
+            "id": "1",
+            "hostStereotype": "HOST",
+            "address": "172.18.5.60"
+        },
+        "service": {
+            "id": "11",
+            "serviceNetworkPort": 8084,
+            "name": "PCvue"
+        },
+        "activity": {
+            "id": "41",
+            "name": "Give close command of CB4 to MPLC"
+        },
+        "process": {
+            "id": "1",
+            "name": "Power supply to smarthome"
+        }
+    },
+    {
+        "asset": {
+            "id": "1",
+            "hostStereotype": "HOST",
+            "address": "172.18.5.60"
+        },
+        "service": {
+            "id": "11",
+            "serviceNetworkPort": 8084,
+            "name": "PCvue"
+        },
+        "activity": {
+            "id": "51",
+            "name": "Give close command of CB3 to SPLC"
+        },
+        "process": {
+            "id": "1",
+            "name": "Power supply to smarthome"
+        }
+    },
+    {
+        "asset": {
+            "id": "12",
+            "hostStereotype": "GPLC",
+            "address": "172.16.1.41"
+        },
+        "service": {
+            "id": "12",
+            "serviceNetworkPort": 8084,
+            "name": "Codesys"
+        },
+        "activity": {
+            "id": "12",
+            "name": "Send close command of CB1 to GIED1"
+        },
+        "process": {
+            "id": "1",
+            "name": "Power supply to smarthome"
+        }
+    },
+    {
+        "asset": {
+            "id": "22",
+            "hostStereotype": "TPLC",
+            "address": "172.16.2.41"
+        },
+        "service": {
+            "id": "22",
+            "serviceNetworkPort": 8084,
+            "name": "Codesys"
+        },
+        "activity": {
+            "id": "22",
+            "name": "Send close command of CB2 to TIED2"
+        },
+        "process": {
+            "id": "1",
+            "name": "Power supply to smarthome"
+        }
+    },
+    {
+        "asset": {
+            "id": "32",
+            "hostStereotype": "SPLC",
+            "address": "172.16.4.41"
+        },
+        "service": {
+            "id": "32",
+            "serviceNetworkPort": 8084,
+            "name": "Codesys"
+        },
+        "activity": {
+            "id": "32",
+            "name": "Send close command of CB3 to SIED4"
+        },
+        "process": {
+            "id": "1",
+            "name": "Power supply to smarthome"
+        }
+    },
+    {
+        "asset": {
+            "id": "42",
+            "hostStereotype": "MPLC",
+            "address": "172.16.3.41"
+        },
+        "service": {
+            "id": "42",
+            "serviceNetworkPort": 8084,
+            "name": "Codesys"
+        },
+        "activity": {
+            "id": "42",
+            "name": "Send close command of CB4 to MIED2"
+        },
+        "process": {
+            "id": "1",
+            "name": "Power supply to smarthome"
+        }
+    },
+    {
+        "asset": {
+            "id": "32",
+            "hostStereotype": "SPLC",
+            "address": "172.16.4.41"
+        },
+        "service": {
+            "id": "32",
+            "serviceNetworkPort": 8084,
+            "name": "Codesys"
+        },
+        "activity": {
+            "id": "52",
+            "name": "Send close command of CB3 to SIED4"
+        },
+        "process": {
+            "id": "1",
+            "name": "Power supply to smarthome"
+        }
+    },
+    {
+        "asset": {
+            "id": "13",
+            "hostStereotype": "GIED1",
+            "address": "172.16.1.11"
+        },
+        "service": {
+            "id": "13",
+            "serviceNetworkPort": 8084,
+            "name": "SIPROTEC"
+        },
+        "activity": {
+            "id": "13",
+            "name": "Close CB1"
+        },
+        "process": {
+            "id": "1",
+            "name": "Power supply to smarthome"
+        }
+    },
+    {
+        "asset": {
+            "id": "23",
+            "hostStereotype": "TIED2",
+            "address": "172.16.2.12"
+        },
+        "service": {
+            "id": "23",
+            "serviceNetworkPort": 8084,
+            "name": "SIPROTEC"
+        },
+        "activity": {
+            "id": "23",
+            "name": "Close CB2"
+        },
+        "process": {
+            "id": "1",
+            "name": "Power supply to smarthome"
+        }
+    },
+    {
+        "asset": {
+            "id": "33",
+            "hostStereotype": "SIED4",
+            "address": "172.16.4.14"
+        },
+        "service": {
+            "id": "33",
+            "serviceNetworkPort": 8084,
+            "name": "SIPROTEC"
+        },
+        "activity": {
+            "id": "33",
+            "name": "Close CB3"
+        },
+        "process": {
+            "id": "1",
+            "name": "Power supply to smarthome"
+        }
+    },
+    
+    {
+        "asset": {
+            "id": "43",
+            "hostStereotype": "MIED2",
+            "address": "172.16.3.12"
+        },
+        "service": {
+            "id": "43",
+            "serviceNetworkPort": 8084,
+            "name": "SIPROTEC"
+        },
+        "activity": {
+            "id": "43",
+            "name": "Close CB4"
+        },
+        "process": {
+            "id": "1",
+            "name": "Power supply to smarthome"
+        }
+    },
+    {
+        "asset": {
+            "id": "33",
+            "hostStereotype": "SIED4",
+            "address": "172.16.4.14"
+        },
+        "service": {
+            "id": "53",
+            "serviceNetworkPort": 8084,
+            "name": "SIPROTEC"
+        },
+        "activity": {
+            "id": "53",
+            "name": "Close CB3"
+        },
+        "process": {
+            "id": "1",
+            "name": "Power supply to smarthome"
+        }
+    }
+]

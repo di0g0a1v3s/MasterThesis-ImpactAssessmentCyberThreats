@@ -1,0 +1,35 @@
+172.16.1.1, Network Switch
+172.16.1.11, IED
+172.16.1.12, IED
+172.16.1.2, Network Switch
+172.16.1.31, Access Point
+172.16.1.41, PLC
+172.16.2.1, Network Switch
+172.16.2.11, IED
+172.16.2.12, IED
+172.16.2.13, IED
+172.16.2.2, Network Switch
+172.16.2.31, Access Point
+172.16.2.41, PLC
+172.16.3.1, Network Switch
+172.16.3.11, IED
+172.16.3.12, IED
+172.16.3.2, Network Switch
+172.16.3.31, Access Point
+172.16.3.41, PLC
+172.16.4.1, Network Switch
+172.16.4.11, IED
+172.16.4.12, IED
+172.16.4.13, IED
+172.16.4.14, IED
+172.16.4.2, Network Switch
+172.16.4.31, Access Point
+172.16.4.41, PLC
+172.16.5.1, Network Switch
+172.16.5.100, Historian
+172.16.5.2, Network Switch
+172.16.5.31, Access Point
+172.16.5.32, Access Point
+172.16.5.41, PLC
+172.18.5.1, Network Switch
+172.18.5.60, SCADA

@@ -1,0 +1,18 @@
+tcp, 172.18.5.0/24, any, 172.16.5.0/24, 1-101, deny
+tcp, 172.18.5.60, any, 172.16.5.41, 80-102, allow
+tcp, 172.18.5.60, any, 172.16.5.0/24, 100-134, deny
+tcp, 172.18.5.60, any, 172.16.5.100, 50-135, allow
+tcp, 172.16.5.31, any, 172.16.1.31, any, allow, "CAP communicates with GAP"
+tcp, 172.16.5.31, any, 172.16.2.31, any, allow, "CAP communicates with TAP"
+tcp, 172.16.5.31, any, 172.16.3.31, any, allow, "CAP communicates with MAP"
+tcp, 172.16.5.31, any, 172.16.4.31, any, allow, "CAP communicates with SAP"
+tcp, 172.16.5.0/24, any, 172.16.1.0-172.16.1.40, any, deny
+tcp, 172.16.5.0/24, any, 172.16.2.0-172.16.2.40, any, deny
+tcp, 172.16.5.0/24, any, 172.16.3.0-172.16.3.40, any, deny
+tcp, 172.16.5.0/24, any, 172.16.4.0-172.16.4.40, any, deny
+tcp, 172.16.5.41, any, 172.16.1.0-172.16.4.255, any, allow
+tcp, 172.18.5.60, any, 172.16.5.41, 22, deny
+udp, 172.18.5.60, any, 172.16.5.0/24, 22, deny
+udp, 172.18.5.60, any, 172.16.5.41, 22, deny
+udp, 172.18.5.60, any, 172.16.5.100, 22, allow
+udp, 172.18.5.60, any, 172.16.5.100, 22, deny

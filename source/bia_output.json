@@ -1,0 +1,595 @@
+{
+  "compromised_assets": [
+    [
+      {
+        "id": "4",
+        "ip": [
+          "172.18.1.1"
+        ],
+        "isMissionAsset": true,
+        "threats": [
+          "Remote Exploit of Fleet Management Device"
+        ]
+      }
+    ],
+    [
+      {
+        "id": "6",
+        "ip": [
+          "172.18.1.3"
+        ],
+        "isMissionAsset": true,
+        "threats": [
+          "Remote Exploit of Asset Tracker"
+        ]
+      }
+    ],
+    [
+      {
+        "id": "5",
+        "ip": [
+          "172.18.1.2"
+        ],
+        "isMissionAsset": true,
+        "threats": [
+          "Remote Exploit of Driver Tag"
+        ]
+      }
+    ]
+  ],
+  "explored_connectivity": [
+    [
+      {
+        "protocol": "_",
+        "ip_src": "172.18.1.1",
+        "port_src": "_",
+        "ip_dst": "172.18.1.2",
+        "port_dst": "_"
+      }
+    ],
+    [
+      {
+        "protocol": "_",
+        "ip_src": "172.18.1.1",
+        "port_src": "_",
+        "ip_dst": "172.18.1.3",
+        "port_dst": "_"
+      }
+    ],
+    [
+      {
+        "protocol": "_",
+        "ip_src": "172.18.1.3",
+        "port_src": "_",
+        "ip_dst": "172.18.1.2",
+        "port_dst": "_"
+      }
+    ]
+  ],
+  "explored_connectivity_routers": [
+    [
+      {
+        "protocol": "_",
+        "ip_src": "172.18.1.0/24",
+        "port_src": "_",
+        "ip_dst": "router_IOT_gateway",
+        "port_dst": "_"
+      }
+    ],
+    [
+      {
+        "protocol": "_",
+        "ip_src": "172.18.1.2",
+        "port_src": "_",
+        "ip_dst": "172.18.1.0/24",
+        "port_dst": "_"
+      }
+    ],
+    [
+      {
+        "protocol": "_",
+        "ip_src": "172.18.1.1",
+        "port_src": "_",
+        "ip_dst": "172.18.1.0/24",
+        "port_dst": "_"
+      }
+    ],
+    [
+      {
+        "protocol": "_",
+        "ip_src": "172.18.1.3",
+        "port_src": "_",
+        "ip_dst": "172.18.1.0/24",
+        "port_dst": "_"
+      }
+    ]
+  ],
+  "valid_behaviours": [
+    [
+      {
+        "behaviour_id": "10",
+        "ie_attr_id_list": "'301','204','401','201','202','203'",
+        "value": "_"
+      }
+    ],
+    [
+      {
+        "behaviour_id": "14",
+        "ie_attr_id_list": "'204','103','402'",
+        "value": "_"
+      }
+    ],
+    [
+      {
+        "behaviour_id": "15",
+        "ie_attr_id_list": "'103','401','204'",
+        "value": "_"
+      }
+    ],
+    [
+      {
+        "behaviour_id": "18",
+        "ie_attr_id_list": "'204','102','101','103','202','203','301','401','402'",
+        "value": "_"
+      }
+    ],
+    [
+      {
+        "behaviour_id": "19",
+        "ie_attr_id_list": "'204','202','203','201','102','101','301'",
+        "value": "_"
+      }
+    ],
+    [
+      {
+        "behaviour_id": "20",
+        "ie_attr_id_list": "'204'",
+        "value": "_"
+      }
+    ],
+    [
+      {
+        "behaviour_id": "13",
+        "ie_attr_id_list": "'103','302','204'",
+        "value": "_"
+      }
+    ],
+    [
+      {
+        "behaviour_id": "16",
+        "ie_attr_id_list": "'301','204'",
+        "value": "_"
+      }
+    ],
+    [
+      {
+        "behaviour_id": "11",
+        "ie_attr_id_list": "'102','204','205'",
+        "value": "_"
+      }
+    ],
+    [
+      {
+        "behaviour_id": "12",
+        "ie_attr_id_list": "'101','204','205'",
+        "value": "_"
+      }
+    ],
+    [
+      {
+        "behaviour_id": "17",
+        "ie_attr_id_list": "'103','204','205'",
+        "value": "_"
+      }
+    ]
+  ],
+  "activity_attrs": [
+    [
+      {
+        "behaviour_id": "10",
+        "ie_attr_id_list": "'301','204','401','201','202','203'"
+      }
+    ],
+    [
+      {
+        "behaviour_id": "14",
+        "ie_attr_id_list": "'204','103','402'"
+      }
+    ],
+    [
+      {
+        "behaviour_id": "15",
+        "ie_attr_id_list": "'103','401','204'"
+      }
+    ],
+    [
+      {
+        "behaviour_id": "18",
+        "ie_attr_id_list": "'204','102','101','103','202','203','301','401','402'"
+      }
+    ],
+    [
+      {
+        "behaviour_id": "19",
+        "ie_attr_id_list": "'204','202','203','201','102','101','301'"
+      }
+    ],
+    [
+      {
+        "behaviour_id": "20",
+        "ie_attr_id_list": "'204'"
+      }
+    ],
+    [
+      {
+        "behaviour_id": "13",
+        "ie_attr_id_list": "'103','302','204'"
+      }
+    ],
+    [
+      {
+        "behaviour_id": "16",
+        "ie_attr_id_list": "'301','204'"
+      }
+    ],
+    [
+      {
+        "behaviour_id": "11",
+        "ie_attr_id_list": "'102','204','205'"
+      }
+    ],
+    [
+      {
+        "behaviour_id": "12",
+        "ie_attr_id_list": "'101','204','205'"
+      }
+    ],
+    [
+      {
+        "behaviour_id": "17",
+        "ie_attr_id_list": "'103','204','205'"
+      }
+    ]
+  ],
+  "processes_compromised": [
+    {
+      "name": "Last Mile Delivery"
+    }
+  ],
+  "impact_assessment": [
+    {
+      "asset": {
+        "id": "4",
+        "type": [
+          "Fleet Management Device",
+          "HOST"
+        ],
+        "address": "172.18.1.1",
+        "prob": 1.0
+      },
+      "service": {
+        "id": "4",
+        "serviceNetworkPort": "8084",
+        "name": "Deliveries Manager",
+        "prob": 1.0
+      },
+      "activity": {
+        "id": "10",
+        "name": "Driver collects package",
+        "prob": 1.0
+      },
+      "process": {
+        "id": "1",
+        "name": "Last Mile Delivery",
+        "prob": 1.0
+      }
+    },
+    {
+      "asset": {
+        "id": "4",
+        "type": [
+          "Fleet Management Device",
+          "HOST"
+        ],
+        "address": "172.18.1.1",
+        "prob": 1.0
+      },
+      "service": {
+        "id": "4",
+        "serviceNetworkPort": "8084",
+        "name": "Deliveries Manager",
+        "prob": 1.0
+      },
+      "activity": {
+        "id": "14",
+        "name": "Notify package reached destination",
+        "prob": 1.0
+      },
+      "process": {
+        "id": "1",
+        "name": "Last Mile Delivery",
+        "prob": 1.0
+      }
+    },
+    {
+      "asset": {
+        "id": "4",
+        "type": [
+          "Fleet Management Device",
+          "HOST"
+        ],
+        "address": "172.18.1.1",
+        "prob": 1.0
+      },
+      "service": {
+        "id": "4",
+        "serviceNetworkPort": "8084",
+        "name": "Deliveries Manager",
+        "prob": 1.0
+      },
+      "activity": {
+        "id": "15",
+        "name": "Notify package reached waypoint",
+        "prob": 1.0
+      },
+      "process": {
+        "id": "1",
+        "name": "Last Mile Delivery",
+        "prob": 1.0
+      }
+    },
+    {
+      "asset": {
+        "id": "4",
+        "type": [
+          "Fleet Management Device",
+          "HOST"
+        ],
+        "address": "172.18.1.1",
+        "prob": 1.0
+      },
+      "service": {
+        "id": "4",
+        "serviceNetworkPort": "8084",
+        "name": "Deliveries Manager",
+        "prob": 1.0
+      },
+      "activity": {
+        "id": "18",
+        "name": "Notify package compromised",
+        "prob": 1.0
+      },
+      "process": {
+        "id": "1",
+        "name": "Last Mile Delivery",
+        "prob": 1.0
+      }
+    },
+    {
+      "asset": {
+        "id": "4",
+        "type": [
+          "Fleet Management Device",
+          "HOST"
+        ],
+        "address": "172.18.1.1",
+        "prob": 1.0
+      },
+      "service": {
+        "id": "4",
+        "serviceNetworkPort": "8084",
+        "name": "Deliveries Manager",
+        "prob": 1.0
+      },
+      "activity": {
+        "id": "19",
+        "name": "Scan valid UID",
+        "prob": 1.0
+      },
+      "process": {
+        "id": "1",
+        "name": "Last Mile Delivery",
+        "prob": 1.0
+      }
+    },
+    {
+      "asset": {
+        "id": "4",
+        "type": [
+          "Fleet Management Device",
+          "HOST"
+        ],
+        "address": "172.18.1.1",
+        "prob": 1.0
+      },
+      "service": {
+        "id": "4",
+        "serviceNetworkPort": "8084",
+        "name": "Deliveries Manager",
+        "prob": 1.0
+      },
+      "activity": {
+        "id": "20",
+        "name": "Notify package delievered to customer",
+        "prob": 1.0
+      },
+      "process": {
+        "id": "1",
+        "name": "Last Mile Delivery",
+        "prob": 1.0
+      }
+    },
+    {
+      "asset": {
+        "id": "5",
+        "type": [
+          "Driver Tag",
+          "HOST"
+        ],
+        "address": "172.18.1.2",
+        "prob": 1.0
+      },
+      "service": {
+        "id": "5",
+        "serviceNetworkPort": "8084",
+        "name": "Driver Tracking Service",
+        "prob": 0.429625
+      },
+      "activity": {
+        "id": "13",
+        "name": "Driver tag reports new location",
+        "prob": 1.0
+      },
+      "process": {
+        "id": "1",
+        "name": "Last Mile Delivery",
+        "prob": 1.0
+      }
+    },
+    {
+      "asset": {
+        "id": "5",
+        "type": [
+          "Driver Tag",
+          "HOST"
+        ],
+        "address": "172.18.1.2",
+        "prob": 1.0
+      },
+      "service": {
+        "id": "5",
+        "serviceNetworkPort": "8084",
+        "name": "Driver Tracking Service",
+        "prob": 0.429625
+      },
+      "activity": {
+        "id": "16",
+        "name": "Driver uses panic button",
+        "prob": 1.0
+      },
+      "process": {
+        "id": "1",
+        "name": "Last Mile Delivery",
+        "prob": 1.0
+      }
+    },
+    {
+      "asset": {
+        "id": "6",
+        "type": [
+          "Asset Tracker",
+          "HOST"
+        ],
+        "address": "172.18.1.3",
+        "prob": 1.0
+      },
+      "service": {
+        "id": "6",
+        "serviceNetworkPort": "8084",
+        "name": "Asset Tracking Service",
+        "prob": 0.35
+      },
+      "activity": {
+        "id": "11",
+        "name": "Asset tracker reports new temperature measure",
+        "prob": 1.0
+      },
+      "process": {
+        "id": "1",
+        "name": "Last Mile Delivery",
+        "prob": 1.0
+      }
+    },
+    {
+      "asset": {
+        "id": "6",
+        "type": [
+          "Asset Tracker",
+          "HOST"
+        ],
+        "address": "172.18.1.3",
+        "prob": 1.0
+      },
+      "service": {
+        "id": "6",
+        "serviceNetworkPort": "8084",
+        "name": "Asset Tracking Service",
+        "prob": 0.35
+      },
+      "activity": {
+        "id": "12",
+        "name": "Asset tracker reports new humidity measure",
+        "prob": 1.0
+      },
+      "process": {
+        "id": "1",
+        "name": "Last Mile Delivery",
+        "prob": 1.0
+      }
+    },
+    {
+      "asset": {
+        "id": "6",
+        "type": [
+          "Asset Tracker",
+          "HOST"
+        ],
+        "address": "172.18.1.3",
+        "prob": 1.0
+      },
+      "service": {
+        "id": "6",
+        "serviceNetworkPort": "8084",
+        "name": "Asset Tracking Service",
+        "prob": 0.35
+      },
+      "activity": {
+        "id": "17",
+        "name": "Asset tracker reports new location",
+        "prob": 1.0
+      },
+      "process": {
+        "id": "1",
+        "name": "Last Mile Delivery",
+        "prob": 1.0
+      }
+    }
+  ],
+  "threat_propagation_paths": [
+    {
+      "start_asset": [
+        "4",
+        "1"
+      ],
+      "next_assets": [
+        [
+          "5",
+          "0.429625"
+        ],
+        [
+          "6",
+          "0.35"
+        ]
+      ]
+    },
+    {
+      "start_asset": [
+        "6",
+        "0.35"
+      ],
+      "next_assets": [
+        [
+          "5",
+          "0.429625"
+        ]
+      ]
+    },
+    {
+      "start_asset": [
+        "5",
+        "0.429625"
+      ],
+      "next_assets": []
+    }
+  ]
+}

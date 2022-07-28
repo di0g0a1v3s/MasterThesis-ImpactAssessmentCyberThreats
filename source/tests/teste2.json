@@ -1,0 +1,1003 @@
+{
+    "compromised_assets": [
+        [
+            {
+                "id": "17323634240695521",
+                "ip": [
+                    "192.168.20.1"
+                ],
+                "isMissionAsset": false,
+                "threats": [
+                    "Unauthorized Software Use"
+                ]
+            }
+        ],
+        [
+            {
+                "id": "25484591628964028",
+                "ip": [
+                    "192.168.21.1"
+                ],
+                "isMissionAsset": false,
+                "threats": [
+                    "Application Software Malfunctioning",
+                    "Basic Software Malfunctioning",
+                    "Developer Mistake",
+                    "'Malware Software (Virus Worm Trojan etc",
+                    "Not Supported Basic Software",
+                    "Unauthorized Software Use",
+                    "Wrongful Use of Company Software "
+                ]
+            }
+        ],
+        [
+            {
+                "id": "32622026723064378",
+                "ip": [
+                    "192.168.19.1"
+                ],
+                "isMissionAsset": false,
+                "threats": [
+                    "Application Software Malfunctioning",
+                    "Basic Software Malfunctioning",
+                    "Developer Mistake",
+                    "False Information Insertion",
+                    "Logic Bomb Trap Doors",
+                    "'Malware Software (Virus Worm Trojan etc",
+                    "Message Routing Problems",
+                    "Not Supported Basic Software",
+                    "Not Supported Third-party Software",
+                    "Operator Mistake",
+                    "Repudiation",
+                    "Unauthorized Software Use",
+                    "'Unnoticed Data Subtraction (Salami Attack Rounding",
+                    "Wrongful Use of Company Software "
+                ]
+            }
+        ],
+        [
+            {
+                "id": "54597111324175408",
+                "ip": [
+                    "192.168.21.11"
+                ],
+                "isMissionAsset": false,
+                "threats": [
+                    "Application Software Malfunctioning",
+                    "Air Conditioning Malfunctioning",
+                    "Basic Software Malfunctioning",
+                    "Developer Mistake",
+                    "'Malware Software (Virus Worm Trojan etc",
+                    "Not Supported Basic Software",
+                    "Unauthorized Network and Resource Use",
+                    "Unauthorized Software Use",
+                    "Wrongful Use of Company Software "
+                ]
+            }
+        ],
+        [
+            {
+                "id": "15286328933389292",
+                "ip": [
+                    "192.168.21.10"
+                ],
+                "isMissionAsset": false,
+                "threats": [
+                    "Air Conditioning Malfunctioning",
+                    "Application Software Malfunctioning",
+                    "Basic Software Malfunctioning",
+                    "Developer Mistake",
+                    "'Malware Software (Virus Worm Trojan etc",
+                    "Not Supported Basic Software",
+                    "Unauthorized Network and Resource Use",
+                    "Unauthorized Software Use",
+                    "Wrongful Use of Company Software "
+                ]
+            }
+        ],
+        [
+            {
+                "id": "18499380920981086",
+                "ip": [
+                    "192.168.20.7"
+                ],
+                "isMissionAsset": false,
+                "threats": [
+                    "Application Software Malfunctioning",
+                    "Basic Software Malfunctioning",
+                    "Communication Infiltrations",
+                    "'Denial of Service (DoS",
+                    "Developer Mistake",
+                    "Dust-Particles",
+                    "'Electromagnetic Interference (EMI",
+                    "Fire",
+                    "Forbidden Access to Network Basic Software Applications",
+                    "Hardware Malfunctioning",
+                    "Hardware malfunctioning Repetition",
+                    "'Heavy Voltage Reduction (brownout",
+                    "Information Management Equipment Tampering",
+                    "Jumps in Temperature or Humidity",
+                    "'Lack of Electric Current (blackout",
+                    "Lightning",
+                    "Maintenance Error",
+                    "'Malware Software (Virus Worm Trojan etc",
+                    "Masquerading",
+                    "Minimums Peaks and Surges",
+                    "Not Supported Basic Software",
+                    "Social Engineering",
+                    "System Analyst Error",
+                    "Theft",
+                    "Unauthorized Software Use",
+                    "Wiretapping",
+                    "Wrongful Use of Company Software "
+                ]
+            }
+        ],
+        [
+            {
+                "id": "20969750174040319",
+                "ip": [
+                    "192.168.20.20"
+                ],
+                "isMissionAsset": false,
+                "threats": [
+                    "Application Software Malfunctioning",
+                    "Basic Software Malfunctioning",
+                    "Communication Infiltrations",
+                    "'Denial of Service (DoS",
+                    "Developer Mistake",
+                    "Dust-Particles",
+                    "'Electromagnetic Interference (EMI",
+                    "Fire",
+                    "Forbidden Access to Network Basic Software Applications",
+                    "Hardware Malfunctioning",
+                    "Hardware malfunctioning Repetition",
+                    "'Heavy Voltage Reduction (brownout",
+                    "Information Management Equipment Tampering",
+                    "Jumps in Temperature or Humidity",
+                    "'Lack of Electric Current (blackout",
+                    "Lightning",
+                    "Maintenance Error",
+                    "'Malware Software (Virus Worm Trojan etc",
+                    "Masquerading",
+                    "Minimums Peaks and Surges",
+                    "Not Supported Basic Software",
+                    "Social Engineering",
+                    "System Analyst Error",
+                    "Theft",
+                    "Unauthorized Software Use",
+                    "Wiretapping",
+                    "Wrongful Use of Company Software "
+                ]
+            }
+        ],
+        [
+            {
+                "id": "25160838606018113",
+                "ip": [
+                    "192.168.20.10"
+                ],
+                "isMissionAsset": false,
+                "threats": [
+                    "Application Software Malfunctioning",
+                    "Basic Software Malfunctioning",
+                    "Communication Infiltrations",
+                    "'Denial of Service (DoS",
+                    "Dust-Particles",
+                    "'Electromagnetic Interference (EMI",
+                    "Fire",
+                    "Forbidden Access to Network Basic Software Applications",
+                    "Hardware Malfunctioning",
+                    "Hardware malfunctioning Repetition",
+                    "'Heavy Voltage Reduction (brownout",
+                    "Information Management Equipment Tampering",
+                    "Jumps in Temperature or Humidity",
+                    "'Lack of Electric Current (blackout",
+                    "Lightning",
+                    "Maintenance Error",
+                    "'Malware Software (Virus Worm Trojan etc",
+                    "Masquerading",
+                    "Minimums Peaks and Surges",
+                    "Not Supported Basic Software",
+                    "Social Engineering",
+                    "System Analyst Error",
+                    "Theft",
+                    "Unauthorized Software Use",
+                    "Wiretapping"
+                ]
+            }
+        ],
+        [
+            {
+                "id": "500",
+                "ip": [
+                    "192.168.20.2"
+                ],
+                "isMissionAsset": true,
+                "threats": [
+                    "Application Software Malfunctioning",
+                    "Basic Software Malfunctioning",
+                    "Developer Mistake",
+                    "'Malware Software (Virus Worm Trojan etc",
+                    "Not Supported Basic Software",
+                    "Unauthorized Software Use",
+                    "Wrongful Use of Company Software "
+                ]
+            }
+        ]
+    ],
+    "explored_connectivity": [
+        [
+            {
+                "protocol": "_",
+                "ip_src": "192.168.20.1",
+                "port_src": "_",
+                "ip_dst": "192.168.21.10",
+                "port_dst": "_"
+            }
+        ],
+        [
+            {
+                "protocol": "_",
+                "ip_src": "192.168.20.1",
+                "port_src": "_",
+                "ip_dst": "192.168.21.1",
+                "port_dst": "_"
+            }
+        ],
+        [
+            {
+                "protocol": "_",
+                "ip_src": "192.168.21.1",
+                "port_src": "_",
+                "ip_dst": "192.168.21.10",
+                "port_dst": "_"
+            }
+        ],
+        [
+            {
+                "protocol": "_",
+                "ip_src": "192.168.20.1",
+                "port_src": "_",
+                "ip_dst": "192.168.19.1",
+                "port_dst": "_"
+            }
+        ],
+        [
+            {
+                "protocol": "_",
+                "ip_src": "192.168.21.1",
+                "port_src": "_",
+                "ip_dst": "192.168.19.1",
+                "port_dst": "_"
+            }
+        ],
+        [
+            {
+                "protocol": "_",
+                "ip_src": "192.168.19.1",
+                "port_src": "_",
+                "ip_dst": "192.168.21.10",
+                "port_dst": "_"
+            }
+        ],
+        [
+            {
+                "protocol": "_",
+                "ip_src": "192.168.20.1",
+                "port_src": "_",
+                "ip_dst": "192.168.21.11",
+                "port_dst": "_"
+            }
+        ],
+        [
+            {
+                "protocol": "_",
+                "ip_src": "192.168.21.1",
+                "port_src": "_",
+                "ip_dst": "192.168.21.11",
+                "port_dst": "_"
+            }
+        ],
+        [
+            {
+                "protocol": "_",
+                "ip_src": "192.168.19.1",
+                "port_src": "_",
+                "ip_dst": "192.168.21.11",
+                "port_dst": "_"
+            }
+        ],
+        [
+            {
+                "protocol": "_",
+                "ip_src": "192.168.21.11",
+                "port_src": "_",
+                "ip_dst": "192.168.21.10",
+                "port_dst": "_"
+            }
+        ],
+        [
+            {
+                "protocol": "_",
+                "ip_src": "192.168.21.10",
+                "port_src": "_",
+                "ip_dst": "192.168.20.2",
+                "port_dst": "_"
+            }
+        ],
+        [
+            {
+                "protocol": "_",
+                "ip_src": "192.168.20.1",
+                "port_src": "_",
+                "ip_dst": "192.168.20.2",
+                "port_dst": "_"
+            }
+        ],
+        [
+            {
+                "protocol": "_",
+                "ip_src": "192.168.21.10",
+                "port_src": "_",
+                "ip_dst": "192.168.20.7",
+                "port_dst": "_"
+            }
+        ],
+        [
+            {
+                "protocol": "_",
+                "ip_src": "192.168.20.1",
+                "port_src": "_",
+                "ip_dst": "192.168.20.7",
+                "port_dst": "_"
+            }
+        ],
+        [
+            {
+                "protocol": "_",
+                "ip_src": "192.168.21.1",
+                "port_src": "_",
+                "ip_dst": "192.168.20.7",
+                "port_dst": "_"
+            }
+        ],
+        [
+            {
+                "protocol": "_",
+                "ip_src": "192.168.19.1",
+                "port_src": "_",
+                "ip_dst": "192.168.20.7",
+                "port_dst": "_"
+            }
+        ],
+        [
+            {
+                "protocol": "_",
+                "ip_src": "192.168.21.11",
+                "port_src": "_",
+                "ip_dst": "192.168.20.7",
+                "port_dst": "_"
+            }
+        ],
+        [
+            {
+                "protocol": "_",
+                "ip_src": "192.168.20.7",
+                "port_src": "_",
+                "ip_dst": "192.168.20.2",
+                "port_dst": "_"
+            }
+        ],
+        [
+            {
+                "protocol": "_",
+                "ip_src": "192.168.21.10",
+                "port_src": "_",
+                "ip_dst": "192.168.20.20",
+                "port_dst": "_"
+            }
+        ],
+        [
+            {
+                "protocol": "_",
+                "ip_src": "192.168.20.1",
+                "port_src": "_",
+                "ip_dst": "192.168.20.20",
+                "port_dst": "_"
+            }
+        ],
+        [
+            {
+                "protocol": "_",
+                "ip_src": "192.168.20.7",
+                "port_src": "_",
+                "ip_dst": "192.168.20.20",
+                "port_dst": "_"
+            }
+        ],
+        [
+            {
+                "protocol": "_",
+                "ip_src": "192.168.21.1",
+                "port_src": "_",
+                "ip_dst": "192.168.20.20",
+                "port_dst": "_"
+            }
+        ],
+        [
+            {
+                "protocol": "_",
+                "ip_src": "192.168.19.1",
+                "port_src": "_",
+                "ip_dst": "192.168.20.20",
+                "port_dst": "_"
+            }
+        ],
+        [
+            {
+                "protocol": "_",
+                "ip_src": "192.168.21.11",
+                "port_src": "_",
+                "ip_dst": "192.168.20.20",
+                "port_dst": "_"
+            }
+        ],
+        [
+            {
+                "protocol": "_",
+                "ip_src": "192.168.20.20",
+                "port_src": "_",
+                "ip_dst": "192.168.20.2",
+                "port_dst": "_"
+            }
+        ],
+        [
+            {
+                "protocol": "_",
+                "ip_src": "192.168.21.10",
+                "port_src": "_",
+                "ip_dst": "192.168.20.10",
+                "port_dst": "_"
+            }
+        ],
+        [
+            {
+                "protocol": "_",
+                "ip_src": "192.168.20.1",
+                "port_src": "_",
+                "ip_dst": "192.168.20.10",
+                "port_dst": "_"
+            }
+        ],
+        [
+            {
+                "protocol": "_",
+                "ip_src": "192.168.20.7",
+                "port_src": "_",
+                "ip_dst": "192.168.20.10",
+                "port_dst": "_"
+            }
+        ],
+        [
+            {
+                "protocol": "_",
+                "ip_src": "192.168.20.20",
+                "port_src": "_",
+                "ip_dst": "192.168.20.10",
+                "port_dst": "_"
+            }
+        ],
+        [
+            {
+                "protocol": "_",
+                "ip_src": "192.168.21.1",
+                "port_src": "_",
+                "ip_dst": "192.168.20.10",
+                "port_dst": "_"
+            }
+        ],
+        [
+            {
+                "protocol": "_",
+                "ip_src": "192.168.19.1",
+                "port_src": "_",
+                "ip_dst": "192.168.20.10",
+                "port_dst": "_"
+            }
+        ],
+        [
+            {
+                "protocol": "_",
+                "ip_src": "192.168.21.11",
+                "port_src": "_",
+                "ip_dst": "192.168.20.10",
+                "port_dst": "_"
+            }
+        ],
+        [
+            {
+                "protocol": "_",
+                "ip_src": "192.168.20.10",
+                "port_src": "_",
+                "ip_dst": "192.168.20.2",
+                "port_dst": "_"
+            }
+        ],
+        [
+            {
+                "protocol": "_",
+                "ip_src": "192.168.21.1",
+                "port_src": "_",
+                "ip_dst": "192.168.20.2",
+                "port_dst": "_"
+            }
+        ],
+        [
+            {
+                "protocol": "_",
+                "ip_src": "192.168.19.1",
+                "port_src": "_",
+                "ip_dst": "192.168.20.2",
+                "port_dst": "_"
+            }
+        ],
+        [
+            {
+                "protocol": "_",
+                "ip_src": "192.168.21.11",
+                "port_src": "_",
+                "ip_dst": "192.168.20.2",
+                "port_dst": "_"
+            }
+        ]
+    ],
+    "processes_compromised": [
+        {
+            "name": "SCADA Process Diagram"
+        }
+    ],
+    "impact_assessment": [
+        {
+            "asset": {
+                "id": "500",
+                "type": [
+                    "Commercial applications",
+                    "Developed software products",
+                    "External Web server",
+                    "HOST",
+                    "Operating System",
+                    "Server",
+                    "W7-SATIE-SCADA"
+                ],
+                "address": "192.168.20.2",
+                "prob": 1.0
+            },
+            "service": {
+                "id": "700",
+                "serviceNetworkPort": "0",
+                "name": "SCADA",
+                "prob": 0.9
+            },
+            "activity": {
+                "id": "1809",
+                "name": "Turn off BAGWARE",
+                "prob": 0.9
+            },
+            "process": {
+                "id": "1800",
+                "name": "SCADA Process Diagram",
+                "prob": 0.9
+            }
+        },
+        {
+            "asset": {
+                "id": "500",
+                "type": [
+                    "Commercial applications",
+                    "Developed software products",
+                    "External Web server",
+                    "HOST",
+                    "Operating System",
+                    "Server",
+                    "W7-SATIE-SCADA"
+                ],
+                "address": "192.168.20.2",
+                "prob": 1.0
+            },
+            "service": {
+                "id": "700",
+                "serviceNetworkPort": "0",
+                "name": "SCADA",
+                "prob": 0.9
+            },
+            "activity": {
+                "id": "1811",
+                "name": "Turn On BAGWARE",
+                "prob": 0.9
+            },
+            "process": {
+                "id": "1800",
+                "name": "SCADA Process Diagram",
+                "prob": 0.9
+            }
+        },
+        {
+            "asset": {
+                "id": "500",
+                "type": [
+                    "Commercial applications",
+                    "Developed software products",
+                    "External Web server",
+                    "HOST",
+                    "Operating System",
+                    "Server",
+                    "W7-SATIE-SCADA"
+                ],
+                "address": "192.168.20.2",
+                "prob": 1.0
+            },
+            "service": {
+                "id": "700",
+                "serviceNetworkPort": "0",
+                "name": "SCADA",
+                "prob": 0.9
+            },
+            "activity": {
+                "id": "1812",
+                "name": "Turn off ATR",
+                "prob": 0.9
+            },
+            "process": {
+                "id": "1800",
+                "name": "SCADA Process Diagram",
+                "prob": 0.9
+            }
+        },
+        {
+            "asset": {
+                "id": "500",
+                "type": [
+                    "Commercial applications",
+                    "Developed software products",
+                    "External Web server",
+                    "HOST",
+                    "Operating System",
+                    "Server",
+                    "W7-SATIE-SCADA"
+                ],
+                "address": "192.168.20.2",
+                "prob": 1.0
+            },
+            "service": {
+                "id": "700",
+                "serviceNetworkPort": "0",
+                "name": "SCADA",
+                "prob": 0.9
+            },
+            "activity": {
+                "id": "1813",
+                "name": "Turn on ATR",
+                "prob": 0.9
+            },
+            "process": {
+                "id": "1800",
+                "name": "SCADA Process Diagram",
+                "prob": 0.9
+            }
+        },
+        {
+            "asset": {
+                "id": "500",
+                "type": [
+                    "Commercial applications",
+                    "Developed software products",
+                    "External Web server",
+                    "HOST",
+                    "Operating System",
+                    "Server",
+                    "W7-SATIE-SCADA"
+                ],
+                "address": "192.168.20.2",
+                "prob": 1.0
+            },
+            "service": {
+                "id": "700",
+                "serviceNetworkPort": "0",
+                "name": "SCADA",
+                "prob": 0.9
+            },
+            "activity": {
+                "id": "1814",
+                "name": "Turn off EDS",
+                "prob": 0.9
+            },
+            "process": {
+                "id": "1800",
+                "name": "SCADA Process Diagram",
+                "prob": 0.9
+            }
+        },
+        {
+            "asset": {
+                "id": "500",
+                "type": [
+                    "Commercial applications",
+                    "Developed software products",
+                    "External Web server",
+                    "HOST",
+                    "Operating System",
+                    "Server",
+                    "W7-SATIE-SCADA"
+                ],
+                "address": "192.168.20.2",
+                "prob": 1.0
+            },
+            "service": {
+                "id": "700",
+                "serviceNetworkPort": "0",
+                "name": "SCADA",
+                "prob": 0.9
+            },
+            "activity": {
+                "id": "1815",
+                "name": "Turn on EDS",
+                "prob": 0.9
+            },
+            "process": {
+                "id": "1800",
+                "name": "SCADA Process Diagram",
+                "prob": 0.9
+            }
+        },
+        {
+            "asset": {
+                "id": "500",
+                "type": [
+                    "Commercial applications",
+                    "Developed software products",
+                    "External Web server",
+                    "HOST",
+                    "Operating System",
+                    "Server",
+                    "W7-SATIE-SCADA"
+                ],
+                "address": "192.168.20.2",
+                "prob": 1.0
+            },
+            "service": {
+                "id": "700",
+                "serviceNetworkPort": "0",
+                "name": "SCADA",
+                "prob": 0.9
+            },
+            "activity": {
+                "id": "1816",
+                "name": "Control Unit Responds",
+                "prob": 0.9
+            },
+            "process": {
+                "id": "1800",
+                "name": "SCADA Process Diagram",
+                "prob": 0.9
+            }
+        }
+    ],
+    "threat_propagation_paths": [
+        {
+            "start_asset": [
+                "17323634240695521",
+                "1"
+            ],
+            "next_assets": [
+                [
+                    "25160838606018113",
+                    "1"
+                ],
+                [
+                    "20969750174040319",
+                    "1"
+                ],
+                [
+                    "500",
+                    "1"
+                ],
+                [
+                    "18499380920981086",
+                    "1"
+                ],
+                [
+                    "15286328933389292",
+                    "1"
+                ],
+                [
+                    "32622026723064378",
+                    "1"
+                ],
+                [
+                    "25484591628964028",
+                    "1"
+                ],
+                [
+                    "54597111324175408",
+                    "1"
+                ]
+            ]
+        },
+        {
+            "start_asset": [
+                "25484591628964028",
+                "1"
+            ],
+            "next_assets": [
+                [
+                    "25160838606018113",
+                    "1"
+                ],
+                [
+                    "20969750174040319",
+                    "1"
+                ],
+                [
+                    "500",
+                    "1"
+                ],
+                [
+                    "18499380920981086",
+                    "1"
+                ],
+                [
+                    "15286328933389292",
+                    "1"
+                ],
+                [
+                    "32622026723064378",
+                    "1"
+                ],
+                [
+                    "54597111324175408",
+                    "1"
+                ]
+            ]
+        },
+        {
+            "start_asset": [
+                "32622026723064378",
+                "1"
+            ],
+            "next_assets": [
+                [
+                    "25160838606018113",
+                    "1"
+                ],
+                [
+                    "20969750174040319",
+                    "1"
+                ],
+                [
+                    "500",
+                    "1"
+                ],
+                [
+                    "18499380920981086",
+                    "1"
+                ],
+                [
+                    "15286328933389292",
+                    "1"
+                ],
+                [
+                    "54597111324175408",
+                    "1"
+                ]
+            ]
+        },
+        {
+            "start_asset": [
+                "54597111324175408",
+                "1"
+            ],
+            "next_assets": [
+                [
+                    "25160838606018113",
+                    "1"
+                ],
+                [
+                    "20969750174040319",
+                    "1"
+                ],
+                [
+                    "500",
+                    "1"
+                ],
+                [
+                    "18499380920981086",
+                    "1"
+                ],
+                [
+                    "15286328933389292",
+                    "1"
+                ]
+            ]
+        },
+        {
+            "start_asset": [
+                "15286328933389292",
+                "1"
+            ],
+            "next_assets": [
+                [
+                    "25160838606018113",
+                    "1"
+                ],
+                [
+                    "20969750174040319",
+                    "1"
+                ],
+                [
+                    "500",
+                    "1"
+                ],
+                [
+                    "18499380920981086",
+                    "1"
+                ]
+            ]
+        },
+        {
+            "start_asset": [
+                "18499380920981086",
+                "1"
+            ],
+            "next_assets": [
+                [
+                    "25160838606018113",
+                    "1"
+                ],
+                [
+                    "20969750174040319",
+                    "1"
+                ],
+                [
+                    "500",
+                    "1"
+                ]
+            ]
+        },
+        {
+            "start_asset": [
+                "20969750174040319",
+                "1"
+            ],
+            "next_assets": [
+                [
+                    "25160838606018113",
+                    "1"
+                ],
+                [
+                    "500",
+                    "1"
+                ]
+            ]
+        },
+        {
+            "start_asset": [
+                "25160838606018113",
+                "1"
+            ],
+            "next_assets": [
+                [
+                    "500",
+                    "1"
+                ]
+            ]
+        },
+        {
+            "start_asset": [
+                "500",
+                "1"
+            ],
+            "next_assets": []
+        }
+    ]
+}

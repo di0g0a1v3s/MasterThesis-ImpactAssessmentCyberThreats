@@ -1,0 +1,22 @@
+PATH 0: Vulnerability <name: Remote Exploit of Fleet Management Device> -> Asset <ip: 172.18.1.1> -> Subnet <prefix: 172.18.1.0/24> -> Asset <ip: 172.18.1.2>, -> Service <name: Driver Tracking Service,id:5>, -> Activity <name: Driver uses panic button>, -> Process <name: Last Mile Delivery>,
+
+PATH 1: Vulnerability <name: Remote Exploit of Fleet Management Device> -> Asset <ip: 172.18.1.1> -> Subnet <prefix: 172.18.1.0/24> -> Asset <ip: 172.18.1.2>, -> Service <name: Driver Tracking Service,id:5>, -> Activity <name: Driver tag reports new location>, -> Process <name: Last Mile Delivery>,
+
+PATH 2: Vulnerability <name: Remote Exploit of Fleet Management Device> -> Asset <ip: 172.18.1.1> -> Subnet <prefix: 172.18.1.0/24> -> Asset <ip: 172.18.1.3>, -> Service <name: Asset Tracking Service,id:6>, -> Activity <name: Asset tracker reports new location>, -> Process <name: Last Mile Delivery>,
+
+PATH 3: Vulnerability <name: Remote Exploit of Fleet Management Device> -> Asset <ip: 172.18.1.1> -> Subnet <prefix: 172.18.1.0/24> -> Asset <ip: 172.18.1.3>, -> Service <name: Asset Tracking Service,id:6>, -> Activity <name: Asset tracker reports new temperature measure>, -> Process <name: Last Mile Delivery>,
+
+PATH 4: Vulnerability <name: Remote Exploit of Fleet Management Device> -> Asset <ip: 172.18.1.1> -> Subnet <prefix: 172.18.1.0/24> -> Asset <ip: 172.18.1.3>, -> Service <name: Asset Tracking Service,id:6>, -> Activity <name: Asset tracker reports new humidity measure>, -> Process <name: Last Mile Delivery>,
+
+PATH 5: Vulnerability <name: Remote Exploit of Fleet Management Device> -> Asset <ip: 172.18.1.1>, -> Service <name: Deliveries Manager,id:4>, -> Activity <name: Notify package delievered to customer>, -> Process <name: Last Mile Delivery>,
+
+PATH 6: Vulnerability <name: Remote Exploit of Fleet Management Device> -> Asset <ip: 172.18.1.1>, -> Service <name: Deliveries Manager,id:4>, -> Activity <name: Notify package compromised>, -> Process <name: Last Mile Delivery>,
+
+PATH 7: Vulnerability <name: Remote Exploit of Fleet Management Device> -> Asset <ip: 172.18.1.1>, -> Service <name: Deliveries Manager,id:4>, -> Activity <name: Scan valid UID>, -> Process <name: Last Mile Delivery>,
+
+PATH 8: Vulnerability <name: Remote Exploit of Fleet Management Device> -> Asset <ip: 172.18.1.1>, -> Service <name: Deliveries Manager,id:4>, -> Activity <name: Notify package reached waypoint>, -> Process <name: Last Mile Delivery>,
+
+PATH 9: Vulnerability <name: Remote Exploit of Fleet Management Device> -> Asset <ip: 172.18.1.1>, -> Service <name: Deliveries Manager,id:4>, -> Activity <name: Driver collects package>, -> Process <name: Last Mile Delivery>,
+
+PATH 10: Vulnerability <name: Remote Exploit of Fleet Management Device> -> Asset <ip: 172.18.1.1>, -> Service <name: Deliveries Manager,id:4>, -> Activity <name: Notify package reached destination>, -> Process <name: Last Mile Delivery>,
+

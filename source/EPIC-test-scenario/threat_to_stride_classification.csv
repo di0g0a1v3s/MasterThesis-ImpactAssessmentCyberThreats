@@ -1,0 +1,18 @@
+THREAT DESCRIPTION,STRIDE CLASSIFICATION
+Information Leakage,information disclosure
+Advanced Persistent Threats,information disclosure
+Malware,"spoofing, tampering, repudiation, information disclosure, denial of service, elevation of privilege"
+Exploit kits,elevation of privilege
+Insider Threat,tampering
+Communication systems outage,denial of service
+Eavesdropping,information disclosure
+Mimt_AP,"spoofing, tampering"
+Mimt_PLC,"spoofing, tampering"
+Scada communication hijack,spoofing
+Distributed DoS,denial of service
+"Execution of arbitrary code CVE_2020_26867",elevation of privilege
+"Denial of Service CVE_2020_26868",denial of service
+"Information Disclosure CVE_2020_26869",information disclosure
+"Execution of unauthorized commands CVE_2018_5459",elevation of privilege
+"Execution of arbitrary code CVE_2019_10938",elevation of privilege
+"Denial of Service CVE_2019_19279",denial of service

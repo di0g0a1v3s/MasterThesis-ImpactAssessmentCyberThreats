@@ -1,0 +1,143 @@
+{
+  "paths": [
+    {
+      "vulnerability": "Remote Exploit of Fleet Management Device",
+      "asset_paths": [
+        {
+          "assets": [
+            {
+              "type": "Asset",
+              "id": "4",
+              "ip": "172.18.1.1",
+              "OC": 0.0
+            },
+            {
+              "type": "Subnet",
+              "subnet_prefix": "172.18.1.0/24",
+              "OC": null
+            },
+            {
+              "type": "Asset",
+              "id": "5",
+              "ip": "172.18.1.2",
+              "OC": 0.0
+            }
+          ]
+        },
+        {
+          "assets": [
+            {
+              "type": "Asset",
+              "id": "4",
+              "ip": "172.18.1.1",
+              "OC": 0.0
+            },
+            {
+              "type": "Subnet",
+              "subnet_prefix": "172.18.1.0/24",
+              "OC": null
+            },
+            {
+              "type": "Asset",
+              "id": "6",
+              "ip": "172.18.1.3",
+              "OC": 0.0
+            }
+          ]
+        },
+        {
+          "assets": [
+            {
+              "type": "Asset",
+              "id": "4",
+              "ip": "172.18.1.1",
+              "OC": 0.0
+            }
+          ]
+        }
+      ],
+      "services": [
+        {
+          "id": "5",
+          "name": "Driver Tracking Service",
+          "OC": 0.0
+        },
+        {
+          "id": "6",
+          "name": "Asset Tracking Service",
+          "OC": 0.0
+        },
+        {
+          "id": "4",
+          "name": "Deliveries Manager",
+          "OC": 0.0
+        }
+      ],
+      "activities": [
+        {
+          "id": "16",
+          "name": "Driver uses panic button",
+          "OC": 0.0
+        },
+        {
+          "id": "13",
+          "name": "Driver tag reports new location",
+          "OC": 0.0
+        },
+        {
+          "id": "17",
+          "name": "Asset tracker reports new location",
+          "OC": 0.0
+        },
+        {
+          "id": "11",
+          "name": "Asset tracker reports new temperature measure",
+          "OC": 0.0
+        },
+        {
+          "id": "12",
+          "name": "Asset tracker reports new humidity measure",
+          "OC": 0.0
+        },
+        {
+          "id": "20",
+          "name": "Notify package delievered to customer",
+          "OC": 0.0
+        },
+        {
+          "id": "18",
+          "name": "Notify package compromised",
+          "OC": 0.0
+        },
+        {
+          "id": "19",
+          "name": "Scan valid UID",
+          "OC": 0.0
+        },
+        {
+          "id": "15",
+          "name": "Notify package reached waypoint",
+          "OC": 0.0
+        },
+        {
+          "id": "10",
+          "name": "Driver collects package",
+          "OC": 0.0
+        },
+        {
+          "id": "14",
+          "name": "Notify package reached destination",
+          "OC": 0.0
+        }
+      ],
+      "processes": [
+        {
+          "id": "1",
+          "name": "Last Mile Delivery",
+          "OC": 0.0
+        }
+      ],
+      "impact": 0.5
+    }
+  ]
+}

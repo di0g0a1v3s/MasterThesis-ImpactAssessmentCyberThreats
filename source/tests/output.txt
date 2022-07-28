@@ -1,0 +1,6 @@
+PATH: Threat <name: Wrongful Use> -> Asset <ip: 192.168.3.2> -> Service <name: Sorter> -> Activity <name: Give Sortation Order> -> Process <name: Baggage Screening Process>
+
+
+PATH: Threat <name: Wrongful Use> -> Asset <ip: 192.168.3.2> -> Asset <ip: 192.168.4.2> -> Service <name: PLC> -> Activity <name: Move Bag to screening Conveyour> -> Process <name: Baggage Screening Process>
+
+
